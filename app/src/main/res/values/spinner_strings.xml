@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item> Join Class A </item>
+        <item> Join Class B </item>
+        <item> Join Class C </item>
+    </string-array>
+</resources>

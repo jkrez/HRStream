@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.UsernameFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"></RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What name would you like to use for the Push Point Dashboard"
+            android:id="@+id/textView3"
+            android:layout_marginTop="52dp"
+            android:textColor="#2a2a2a"
+            android:textSize="28dp"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <layout.EditTextSingle
+            android:layout_width="fill_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:background="@drawable/corners"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/name_textbox"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:text="This will be name above your Push Point progress bar on the class Dashboard"
+            android:textSize="12dp"
+            android:layout_below="@+id/name_textbox"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_alignParentEnd="true"
+            android:background="#dedede" />
+    </RelativeLayout>
+</FrameLayout>

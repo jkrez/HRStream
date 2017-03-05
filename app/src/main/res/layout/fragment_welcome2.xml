@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Welcome2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="295dp"
+        android:layout_height="277dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/band_large"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="217dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to the Push Point Experience"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="48dp"
+        android:textAlignment="center" />
+</FrameLayout>

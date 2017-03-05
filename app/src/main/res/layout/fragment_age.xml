@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.AgeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"></RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We customize your Push Points based on your age. How old are you?"
+            android:id="@+id/textView3"
+            android:layout_marginTop="52dp"
+            android:textColor="#2a2a2a"
+            android:textSize="28dp"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <layout.EditTextSingle
+            android:layout_width="fill_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:background="@drawable/corners"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/age_textbox"
+            android:inputType="phone"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:text="This will not be displayed in class. Please be truthful to get the best Push Point experience"
+            android:textSize="12dp"
+            android:layout_below="@+id/age_textbox"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_alignParentEnd="true"
+            android:background="#dedede" />
+    </RelativeLayout>
+</FrameLayout>

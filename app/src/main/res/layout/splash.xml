@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1140dp"
+        android:layout_height="640dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/barbell3"/>
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="146dp"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="@string/welcome_fragment"
+        android:textColor="#68b2d7"
+        android:textSize="48dp"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.streamteam.pushpoint.HomeActivity"/>
+      <point      
+        x = "580"      
+        y = "268"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.streamteam.pushpoint.FirstLoginActivity"/>
+      <point      
+        x = "1832"      
+        y = "1876"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.streamteam.pushpoint.SpalshActivity"/>
+      <point      
+        x = "2672"      
+        y = "300"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.streamteam.pushpoint.SplashActivity"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
